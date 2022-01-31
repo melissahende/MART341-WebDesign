@@ -1,1 +1,3 @@
-
+Folders and directories refer to the same concept, but directory should be used when discussing file systems. 
+It allows to track changes, revert to a previous version, and makes collaborating and sharing easier. 
+I really like photography and graphic design.  I am not very familiar with either, but both seem very interesting and would be something that I would like to learn. 
