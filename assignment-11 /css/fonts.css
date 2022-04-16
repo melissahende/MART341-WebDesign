@@ -1,0 +1,10 @@
+@font-face {
+  font-family:'KeeponTruckin';
+  src:url('../fonts/KeeponTruckin.ttf') format('truetype');
+  font-style: normal;
+}
+@font-face {
+  font-family:'Cream';
+  src: url('../fonts/cream-DEMO.ttf') format('truetype');
+  font-style: normal;
+}
