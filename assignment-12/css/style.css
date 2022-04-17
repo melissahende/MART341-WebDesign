@@ -1,0 +1,150 @@
+body {
+  background-color: #ffebcd;
+  font-family: KeeponTruckin;
+  text-align: center;
+}
+
+div {
+  border: 5px solid #e9967a;
+  display: inline-block;
+}
+
+img {
+  border-radius: 50%;
+  border: 10px solid 	#cd5c5c;
+}
+
+.inspiration {
+  background-color: 	#66cdaa;
+  height: 1000px;
+  width: 1000px;
+  display: inline-block;
+}
+
+#title {
+  font-size: 50px;
+  background-color: #e9967a;
+  color: #cd5c5c;
+  margin: auto;
+  padding: 20px;
+  margin-top: 4em;
+}
+
+#title:hover{
+  letter-spacing: 1em;
+  }
+
+.palette {
+  background-color: white;
+}
+
+.dot {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.one {
+  background-color: #ffebcd;
+  }
+
+.dot.two {
+  background-color: #e9967a;
+  }
+
+.dot.three {
+  background-color: #cd5c5c;
+  }
+
+.dot.four {
+  background-color: #66cdaa;
+  }
+
+#square {
+  height: 100px;
+  width: 100px;
+  background-color: #e9967a;
+  display: inline-block;
+}
+
+.palette:hover{
+  height: 400px;
+  width: 400px;
+}
+
+/* Menu */
+header {
+  position: fixed;
+  background-color: #e9967a;
+  width: 99%;
+  height: 4em;
+  top: 0px;
+  font-family: KeeponTruckin;
+  text-align: right;
+}
+
+/* set the layout of the menu */
+.menu-item {
+  display; inline-block;
+  margin: 1em .2em;
+  background-color: ffebcd;
+}
+
+.menu-item:hover {
+  background-color: #cd5c5c;
+  padding: 1em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+  text-align: center;
+
+
+}
+
+/* style links */
+.menu-item a {
+  color: black;
+  text-decoration: none;
+}
+
+/* dropdown */
+.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin: 0.5em 0 0 -1em;
+  background-color: #e9967a;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  padding: 1em 1em;
+  border-radius: 1em;
+  min-width: 6em;
+}
+
+/* style dropdown display */
+.dropdown-item {
+  display: block;
+  margin: 0;
+  text-align: left;
+  min-width: 5em;
+}
+
+.dropdown-item:hover, .dropdown-item:hover a {
+  color: #cd5c5c;
+}
+
+/* site name styling */
+.site-name {
+  float: left;
+  min-width: 6em;
+  padding: 0.5em 1em;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+  margin: 1em 0.2em;
+  }
